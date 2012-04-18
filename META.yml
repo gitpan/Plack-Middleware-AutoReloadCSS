@@ -20,12 +20,11 @@ no_index:
 provides:
   Plack::Middleware::AutoReloadCSS:
     file: lib/Plack/Middleware/AutoReloadCSS.pm
-    version: 0.01
+    version: 0.02
 requires:
+  Plack: 0
   parent: 0
   perl: 5.014002
 resources:
-  X_prepan:
-    author_url: http://prepan.org/user/xxxxxxx
-    module_url: http://prepan.org/module/xxxxx
-version: 0.01
+  license: http://dev.perl.org/licenses/
+version: 0.02
